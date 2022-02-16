@@ -9,4 +9,7 @@
   .container {
     @apply m-auto w-[93%];
   }
+  .btn {
+    @apply rounded-sm bg-[#f8f9fa] p-2 text-sm text-gray-800 ring-gray-200 transition duration-200 ease-in hover:shadow-md hover:ring-1 focus:outline-none active:ring-gray-300;
+  }
 }
