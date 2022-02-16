@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Avatar from '../components/Avatar'
-import avatarPic from '../public/img/nabiabdi-500.jpg'
+
+import { MicrophonIcon, ViewGridIcon } from '@heroicons/react/solid'
+
 export default function Home() {
   return (
     <>
@@ -25,7 +27,7 @@ export default function Home() {
             <p>Images</p>
 
             {/* Icons */}
-
+            <ViewGridIcon className="h-10 w-10 cursor-pointer rounded-full p-2 hover:bg-gray-100" />
             {/* Avatar */}
             <Avatar url="https://avatars.githubusercontent.com/u/32398454?s=400&u=54c4d8332402eefc950c42093be156ed583b427c&v=4" />
           </div>
