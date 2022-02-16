@@ -7,15 +7,15 @@ const Header = () => {
       {/* Left */}
 
       <div className="flex items-center space-x-4">
-        <p>About</p>
-        <p>Store</p>
+        <p className="link">About</p>
+        <p className="link">Store</p>
       </div>
 
       {/* Right */}
 
       <div className="flex items-center space-x-4">
-        <p>Gmail</p>
-        <p>Images</p>
+        <p className="link">Gmail</p>
+        <p className="link">Images</p>
 
         {/* Icons */}
         <ViewGridIcon className="h-10 w-10 cursor-pointer rounded-full p-2 hover:bg-gray-100" />

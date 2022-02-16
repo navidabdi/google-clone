@@ -2,6 +2,7 @@ import Head from 'next/head'
 
 import Header from '../components/Header'
 import SearchInput from '../components/SearchInput'
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
@@ -9,9 +10,10 @@ export default function Home() {
       <Head>
         <title>Google</title>
       </Head>
-      <div class="container flex min-h-full flex-grow flex-col justify-between">
+      <div class="container flex min-h-screen flex-grow flex-col items-center justify-between">
         <Header />
         <SearchInput />
+        <Footer />
       </div>
     </>
   )
