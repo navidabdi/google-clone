@@ -1,11 +1,11 @@
 import Head from 'next/head'
-
+import Avatar from '../components/Avatar'
+import avatarPic from '../public/img/nabiabdi-500.jpg'
 export default function Home() {
   return (
     <>
       <Head>
         <title>Google</title>
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       {/* Header */}
@@ -22,11 +22,12 @@ export default function Home() {
 
           <div className="flex items-center space-x-4">
             <p>Gmail</p>
-            <p>Image</p>
+            <p>Images</p>
 
             {/* Icons */}
 
             {/* Avatar */}
+            <Avatar url="https://avatars.githubusercontent.com/u/32398454?s=400&u=54c4d8332402eefc950c42093be156ed583b427c&v=4" />
           </div>
         </header>
       </div>
