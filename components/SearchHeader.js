@@ -5,7 +5,7 @@ import { useRef } from 'react'
 import { ViewGridIcon, MicrophoneIcon } from '@heroicons/react/solid'
 import { SearchIcon } from '@heroicons/react/outline'
 import Avatar from '../components/Avatar'
-// import HeaderOptions from '../components/HeaderOptions'
+import HeaderOptions from '../components/HeaderOptions'
 const SearchHeader = () => {
   const router = useRouter()
   const searchInputRef = useRef(null)
@@ -55,7 +55,7 @@ const SearchHeader = () => {
           />
         </div>
         {/* Header option component */}
-        {/* <HeaderOptions /> */}
+        <HeaderOptions />
       </div>
     </header>
   )
