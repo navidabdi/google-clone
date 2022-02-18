@@ -10,7 +10,7 @@ export default function Home() {
       <Head>
         <title>Google</title>
       </Head>
-      <div class="container flex min-h-screen flex-grow flex-col items-center justify-between">
+      <div className="container flex min-h-screen flex-grow flex-col items-center justify-between">
         <Header />
         <SearchInput />
         <Footer />
