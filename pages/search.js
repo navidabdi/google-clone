@@ -1,5 +1,4 @@
 import Head from 'next/head'
-// import { API_KEY, CONTEXT_KEY } from '../keys'
 import Response from '../Response'
 import SearchHeader from '../components/SearchHeader'
 import { useRouter } from 'next/router'

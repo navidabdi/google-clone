@@ -2,7 +2,7 @@ import { XIcon } from '@heroicons/react/solid'
 import Image from 'next/image'
 import { useRouter } from 'next/router'
 import { useRef } from 'react'
-import { ViewGridIcon, MicrophoneIcon } from '@heroicons/react/solid'
+import { MicrophoneIcon } from '@heroicons/react/solid'
 import { SearchIcon } from '@heroicons/react/outline'
 import Avatar from '../components/Avatar'
 import HeaderOptions from '../components/HeaderOptions'
@@ -30,7 +30,6 @@ const SearchHeader = () => {
           />
 
           <form className="mr-5 ml-10 flex w-full max-w-3xl flex-grow items-center rounded-full border border-gray-200 px-5  py-2 shadow-lg focus-within:shadow-lg ">
-            {/* sm:max-w-xl lg:max-w-2xl */}
             <input
               ref={searchInputRef}
               type="text"
@@ -45,7 +44,6 @@ const SearchHeader = () => {
 
             <SearchIcon className="hidden h-6 transform cursor-pointer border-l-2 border-gray-300 pl-4 text-blue-500 transition duration-100 hover:scale-125 sm:inline-flex " />
             <button hidden className="btn " onClick={search}>
-              {' '}
               Google Search
             </button>
           </form>
@@ -54,7 +52,6 @@ const SearchHeader = () => {
             url="https://avatars.githubusercontent.com/u/32398454?s=400&u=54c4d8332402eefc950c42093be156ed583b427c&v=4"
           />
         </div>
-        {/* Header option component */}
         <HeaderOptions />
       </div>
     </header>

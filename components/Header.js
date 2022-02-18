@@ -1,6 +1,6 @@
 import Avatar from '../components/Avatar'
 
-import { MicrophonIcon, ViewGridIcon } from '@heroicons/react/solid'
+import { ViewGridIcon } from '@heroicons/react/solid'
 const Header = () => {
   return (
     <header className="flex w-full justify-between py-5 text-sm text-gray-700">
